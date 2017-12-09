@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/short_image_view"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@mipmap/wrench"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="12dp">
+
+        <TextView
+            android:id="@+id/title_textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            tools:text=":zap:"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/description_textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="#B4B4B4"
+            android:layout_marginLeft="16dp"
+            android:textSize="16sp"
+            tools:text="Hello Zap"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
