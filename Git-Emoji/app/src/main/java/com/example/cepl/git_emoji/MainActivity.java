@@ -1,7 +1,12 @@
 package com.example.cepl.git_emoji;
 
+import android.app.ActivityOptions;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -10,6 +15,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    private CardAdapter mCardAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,6 +92,22 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list);
         CardAdapter adapter = new CardAdapter(this, cards);
 
+        mCardAdapter = new CardAdapter(this, cards);
+
         listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                CardData currentCardData = mCardAdapter.getItem(position);
+                Intent i = new Intent(MainActivity.this, CardDetailsData.class);
+                i.putExtra("title", currentCardData.getTitle());
+                i.putExtra("description", currentCardData.getmDescription());
+                i.putExtra("imageSrc", currentCardData.getImageVIew());
+                i.putExtra("imageBackgroundColor", currentCardData.getColor());
+                ActivityOptions options = ActivityOptions.makeCustomAnimation(MainActivity.this, android.R.anim.fade_in, android.R.anim.fade_out);
+                startActivity(i, options.toBundle());
+            }
+        });
     }
 }

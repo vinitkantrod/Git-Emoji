@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_centerInParent="true"
+    android:background="#F5F5F5"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="56dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/details_background_colorId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#FF5D77"
+            android:layout_weight="6">
+
+            <ImageView
+                android:id="@+id/details_imageView"
+                android:layout_margin="36dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:src="@mipmap/alien"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/details_emoji_textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="#ffffff"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textAlignment="center"
+            android:text=":alien:"/>
+
+        <TextView
+            android:id="@+id/details_brief_textView"
+            android:layout_width="match_parent"
+            android:textColor="#999999"
+            android:layout_height="0dp"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="32dp"
+            android:text="Updating code due to external API changes."
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FFE15B</color>
-    <color name="colorPrimaryDark">#e0c31f</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#FF4081</color>
 
     <color name="art">#FF5D77</color>
@@ -59,7 +59,7 @@
     <color name="ok_hand">#B5F05E</color>
     <color name="wheelchair">#00AFFF</color>
 
-    <color name="bulb">#FFD133</color>
+    <color name="bulb">#FFFF3F</color>
     <color name="beers">#FFB636</color>
     <color name="speech_balloon">#CCDAE7</color>
     <color name="card_file_box">#B5F05E</color>
