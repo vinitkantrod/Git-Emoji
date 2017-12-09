@@ -7,5 +7,6 @@
     android:orientation="vertical"
     android:background="#ffffff"
     android:id="@+id/list"
+    android:divider="@null"
     android:dividerHeight="0dp"
     tools:context="com.example.cepl.git_emoji.MainActivity" />

@@ -3,5 +3,73 @@
     <color name="colorPrimary">#FFE15B</color>
     <color name="colorPrimaryDark">#e0c31f</color>
     <color name="colorAccent">#FF4081</color>
+
     <color name="art">#FF5D77</color>
+    <color name="zap">#00C4FF</color>
+    <color name="fire">#FF9828</color>
+    <color name="bug">#62E341</color>
+
+    <color name="ambulance">#FF3A31</color>
+    <color name="sparkles">#FFEA52</color>
+    <color name="memo">#00F37A</color>
+    <color name="rocket">#00A7F4</color>
+
+    <color name="lipstick">#58E2ED</color>
+    <color name="tada">#FF204F</color>
+    <color name="white_check_mark">#00F458</color>
+    <color name="lock">#FFD133</color>
+
+    <color name="apple">#ff2725</color>
+    <color name="penguin">#ff9520</color>
+    <color name="checkered_flag">#ff5d77</color>
+    <color name="robot">#00c3f5</color>
+
+    <color name="green_apple">#72CD46</color>
+    <color name="bookmark">#58E2ED</color>
+    <color name="rotating_light">#6254FF</color>
+    <color name="construction">#FFB738</color>
+
+    <color name="green_heart">#B5F05E</color>
+    <color name="arrow_down">#FF353D</color>
+    <color name="arrow_up">#00F37A</color>
+    <color name="pushpin">#00C3C5</color>
+
+    <color name="construction_worker">#4EB2FA</color>
+    <color name="chart_with_upwards_trend">#CCDAE7</color>
+    <color name="recycle">#00F458</color>
+    <color name="heavy_minus_sign">#FF353D</color>
+
+    <color name="whale">#00CFEC</color>
+    <color name="heavy_plus_sign">#00F37A</color>
+    <color name="wrench">#FFC600</color>
+    <color name="globe_with_meridians">#E5F4FF</color>
+
+    <color name="pencil2">#FFD113</color>
+    <color name="hankey">#AD8571</color>
+    <color name="rewind">#00D6CD</color>
+    <color name="twisted_rightwards_arrows">#00D6DC</color>
+
+    <color name="package_logo">#FFCFAA</color>
+    <color name="alien">#B5F05E</color>
+    <color name="truck">#FF3F35</color>
+    <color name="page_facing_up">#D7E3E9</color>
+
+    <color name="boom">#FF2C00</color>
+    <color name="bento">#FF3554</color>
+    <color name="ok_hand">#B5F05E</color>
+    <color name="wheelchair">#00AFFF</color>
+
+    <color name="bulb">#FFD133</color>
+    <color name="beers">#FFB636</color>
+    <color name="speech_balloon">#CCDAE7</color>
+    <color name="card_file_box">#B5F05E</color>
+
+    <color name="loud_sound">#00B7D6</color>
+    <color name="mute">#E5EBF0</color>
+    <color name="busts_in_silhouette">#D7E3E9</color>
+    <color name="children_crossing">#FFD133</color>
+
+    <color name="building_construction">#FFEA53</color>
+
 </resources>
+
